@@ -1,7 +1,7 @@
 import { Box, Container, Typography } from "@mui/material";
 import { useState, useEffect, useRef } from "react";
-import { products } from "./data/products";
-import { ComparisonTable } from "./components/ComparisonTable";
+import { products } from "@data/products";
+import { ComparisonTable } from "@components/ComparisonTable";
 import { ProductGrid } from "@components/ProductGrid";
 import { ThemeToggle } from "@components/Theme/ThemeToggle";
 import { CompareBar } from "@components/CompareBar";

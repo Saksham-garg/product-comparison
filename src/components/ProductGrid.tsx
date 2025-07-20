@@ -1,6 +1,6 @@
 import { type FC, useState, useMemo } from "react";
 import { Grid, TextField, Typography } from "@mui/material";
-import { products } from "../data/products";
+import { products } from "@data/products";
 import { ProductCard } from "./ProductCard";
 
 interface Props {

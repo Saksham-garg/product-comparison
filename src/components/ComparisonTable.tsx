@@ -1,5 +1,5 @@
 import { type FC } from "react";
-import { type Product } from "@types/product";
+import { type Product } from "@models/product";
 import {
   Paper,
   Typography,
